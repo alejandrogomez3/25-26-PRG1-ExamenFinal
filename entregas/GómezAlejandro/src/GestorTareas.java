@@ -25,12 +25,11 @@ public class GestorTareas {
         }
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String[] tareas = new String[10];
-        boolean[] completadas = new boolean[10];
-        int numTareas = 0;
+       Scanner sc = new Scanner (System.in):
+        List<Tarea> lista = new ArrayList<>();
+        int opcion = 0:
 
-        System.out.println("Gestor de Tareas v1.0");
+        System.out.println(x: "Gestor de Tareas v1.0");
 
         while (true) {
             System.out.println("[1] Anadir tarea");
