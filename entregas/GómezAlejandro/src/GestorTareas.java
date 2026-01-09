@@ -3,6 +3,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class GestorTareas {
+
     private static class Tarea {
         private String texto;
         private boolean hecha;
@@ -24,12 +25,13 @@ public class GestorTareas {
             hecha = true;
         }
     }
-    public static void main(String[] args) {
-       Scanner sc = new Scanner (System.in):
-        List<Tarea> lista = new ArrayList<>();
-        int opcion = 0:
 
-        System.out.println(x: "Gestor de Tareas v1.0");
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        List<Tarea> lista = new ArrayList<>();
+        int opcion = 0;
+
+        System.out.println("Gestor de Tareas v1.0");
 
         while (opcion != 5) {
 
@@ -125,7 +127,6 @@ public class GestorTareas {
             }
         }
 
-        }
         sc.close();
     }
 }
