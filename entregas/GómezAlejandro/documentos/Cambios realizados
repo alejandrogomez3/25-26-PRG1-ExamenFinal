@@ -1,1 +1,8 @@
+# Cambios realizados en el código
 
+- Commit nº1: Añadimos más elementos que hay que importar para el correcto funcionamiento del código así como el estructurar claramente y correctamente el código a corregir.
+- Commit nº2: Dentro de la public class, he creado una private class
+- Commit nº3: Sustituimos las variables y creamos un ArrayList para su correcto funcionamiento
+- Commit nº4: Reemplazamos el while (true9 por un while ( option !5) para que este mejor estructurado y no de errores
+- Commit nº5: Reemplazamos el if por un switch para que este todo compacto y se pueda trabajar mejor, así como reestructuramos todos los casos
+- Commit nº6: Cerramos el scanner y fin del trabajo
