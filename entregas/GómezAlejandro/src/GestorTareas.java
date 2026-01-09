@@ -31,15 +31,19 @@ public class GestorTareas {
 
         System.out.println(x: "Gestor de Tareas v1.0");
 
-        while (true) {
+        while (opcion != 5) {
+
             System.out.println("[1] Anadir tarea");
             System.out.println("[2] Marcar tarea como completada");
             System.out.println("[3] Ver tareas pendientes");
             System.out.println("[4] Ver estadisticas");
             System.out.println("[5] Salir");
             System.out.print("Opcion: ");
-            int opcion = sc.nextInt();
-            sc.nextLine();
+
+            while (!sc.hasNextInt()) {
+                sc.nextLine();
+                System.out.print("Opcion: ");
+            }
 
             if (opcion == 1) {
                 if (numTareas < 10) {
