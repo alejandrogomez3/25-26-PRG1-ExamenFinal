@@ -3,6 +3,27 @@ import java.util.List;
 import java.util.Scanner;
 
 public class GestorTareas {
+    private static class Tarea {
+        private String texto;
+        private boolean hecha;
+
+        public Tarea(String texto) {
+            this.texto = texto;
+            this.hecha = false;
+        }
+
+        public String getTexto() {
+            return texto;
+        }
+
+        public boolean estaHecha() {
+            return hecha;
+        }
+
+        public void completar() {
+            hecha = true;
+        }
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String[] tareas = new String[10];
